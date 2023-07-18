@@ -39,7 +39,7 @@ function ModalEdit({
         <Form onSubmit={handleEdit}>
           <Modal.Body>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>New Title</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter your title."
@@ -50,7 +50,7 @@ function ModalEdit({
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>New Description</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter your description"
